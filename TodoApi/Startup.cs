@@ -72,7 +72,7 @@ namespace TodoApi
                 app.UseDeveloperExceptionPage();
             }
 
-            DbInitializer.InitializeDatabase(dbContext);
+            //DbInitializer.InitializeDatabase(dbContext);
 
             app.UseHttpsRedirection();
 
